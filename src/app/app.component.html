@@ -1,0 +1,9 @@
+<h1>Angular App</h1>
+
+@for (item of cardArray; track item.id) {
+
+<app-sample-card [card]="item" (eventEmitter1)="emitfunc($event)"></app-sample-card>
+
+}
+
+<ng-container></ng-container>

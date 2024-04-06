@@ -1,0 +1,12 @@
+
+<div class="card">
+    <div class="card-content">
+        <h3>{{card.name}}</h3>
+        <p>{{card.description}}</p>
+        @if (card.status) {
+            <p>Active</p>
+        }
+        <button (click)="onclickfunc()">Click me</button>
+    </div>
+</div>
+----------------------------------------
